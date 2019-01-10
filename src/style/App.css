@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: local('Roboto-Thin'), url(../fonts/Roboto-Thin.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'GeosansLight-Oblique';
+  src: local('GeosansLight-Oblique'), url(../fonts/GeosansLight-Oblique.ttf) format('ttf');
+}
+
+body {
+    background-color: #bfc0c0
+}
+
+input {
+    height: 38px;
+    width: 800px;
+    box-shadow: 0px 10px 20px black;
+    border-radius: 10px;
+    border: 2px solid black
+}
+
+Button {
+}
+
+h1 {
+    text-align: center;
+    color: #ef8354;
+    text-shadow: 3px 3px 1px #b2613e, 5px 5px 5px #b2613e, 7px 7px 10px black;
+    font-family: Roboto
+}
+
+h6 {
+    margin-left: 10px
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.button-style {
+    background-color: #ef8354;
+    font-family: GeosansLight-Oblique
+}
+.button-style:hover {
+    background-color: #b2613e
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    background-color: #2d3142;
+    box-shadow: 0px 10px 20px black;
+    margin-top: 25px;
+    margin-left: 215px;
+    height: 600px;
+    width: 75%;
+    border-radius: 25px
+}
+
+.message-list {
+    margin-bottom: 10px;
+    background-color: #4f5d75;
+    box-shadow: 0px 10px 30px black;
+    border-radius: 25px;
+    height: 500px;
+    width: 100%
+}
+
+.message {
+    background-color: #ef8354;
+    box-shadow: 0px 10px 30px #754f44;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 97%
+}
+
